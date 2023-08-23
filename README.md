@@ -11,6 +11,11 @@ Runs the app in the development mode.
 ### `npm start`
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+Mock API failure Cred to test the Login Fail : {
+"email": "jks@jk.com",
+"password": "joni"
+}
+
 To Run the test cases Run
 Note: Go to src/components/login/Login.js and uncomment line num 40.\
 Then run the command
