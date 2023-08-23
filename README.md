@@ -15,5 +15,5 @@ To Run the test cases Run
 ### `npm test`
 
 If you have any concern/suggestions/queries then\
-Please feel free to communicate `Joni Kumar Sutradhor`\
+Please feel free to communicate with the Author `Joni Kumar Sutradhor`\
 at mail: `jksutradhor@gmail.com`\
