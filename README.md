@@ -16,4 +16,4 @@ To Run the test cases Run
 
 If you have any concern/suggestions/queries then\
 Please feel free to communicate with the Author `Joni Kumar Sutradhor`\
-at mail: `jksutradhor@gmail.com`\
+at mail: `jksutradhor@gmail.com`
