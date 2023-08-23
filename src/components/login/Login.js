@@ -37,7 +37,7 @@ export default function Login({login}) {
     const { isValid, dirtyFields, errors } = formState;
 
     const onSubmit = async (values) => {
-        // login(values)
+        login(values)
         AuthService.login(values)
             .then((res)=> {
               if (res?.status_code === 200) {
