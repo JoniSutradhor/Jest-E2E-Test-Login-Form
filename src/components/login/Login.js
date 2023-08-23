@@ -1,9 +1,7 @@
-import {Link, useNavigate} from "react-router-dom";
 import {useForm, Controller} from "react-hook-form";
 import {LoadingButton} from "@mui/lab";
 import {useState} from "react";
-import {Button, IconButton, InputAdornment, TextField} from "@mui/material";
-import {Visibility, VisibilityOff} from "@mui/icons-material";
+import {TextField} from "@mui/material";
 import _ from "lodash";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
@@ -37,7 +35,7 @@ export default function Login({login}) {
     const { isValid, dirtyFields, errors } = formState;
 
     const onSubmit = async (values) => {
-        login(values)
+        // login(values)
         AuthService.login(values)
             .then((res)=> {
               if (res?.status_code === 200) {
@@ -65,7 +63,6 @@ export default function Login({login}) {
                             {...field}
                             className="mb-24"
                             label="Email"
-                            // data-testid="email"
                             type="text"
                             autoComplete="off"
                             error={!!errors.email}
